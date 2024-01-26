@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GuaranteeComponent } from './components/guarantee/guarantee.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { ServicesPageComponent } from './pages/services-page/services-page.component';
+import { ContpaqiComponent } from './components/contpaqi/contpaqi.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ServicesPageComponent } from './pages/services-page/services-page.compo
     FooterComponent,
     GuaranteeComponent,
     LandingPageComponent,
-    ServicesPageComponent
+    ServicesPageComponent,
+    ContpaqiComponent
   ],
   imports: [
     BrowserModule,
